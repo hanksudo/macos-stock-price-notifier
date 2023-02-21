@@ -7,6 +7,7 @@ STOCK_URLS=(
 )
 while :
 do
+    MESAGE=""
     for STOCK_URL in "${STOCK_URLS[@]}"
     do
         JSON=$(http "$STOCK_URL" | pup 'script#__NEXT_DATA__ text{}')
