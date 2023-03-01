@@ -1,6 +1,6 @@
 # macos-stock-price-notifier
 
-Notify stock price every 5 minutes.
+Notify stock price every 5 minutes. You can chocie to simple print on stdout or notify by system notifier
 
 <img src="./screenshots/1.png" width="400">
 
